@@ -1,6 +1,6 @@
 import View from "./View.js";
 // import icons from "../img/icons.svg"; //Parcel 1
-import icons from "url:../../../img/icons.svg"; //Parcel 2
+import icons from "url:../../img/icons.svg"; //Parcel 2
 import { fracty } from "fracty";
 
 class RecipeView extends View {
@@ -124,7 +124,7 @@ class RecipeView extends View {
     }
 
     _generateMarkupIngredient(ing) {
-        var fracty = require("fracty");
+        var fracty = require('fracty')
         return `
     <li class="recipe__ingredient">
         <svg class="recipe__icon">
